@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Datasets (downloaded by scripts/get-sift.sh) and profiling output
+/data/
+*.jfr
+jmh-result.*
+
+# OS
+.DS_Store
